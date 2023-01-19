@@ -82,25 +82,37 @@
         <div class="container skillsSection">
             <h2>Skills</h2>
             <div class="container">
-                <div class="each_skills">
-                    <span>HTML5 <img src=""> </span>
-                    <div class="progress">
-                        <div class="progress-bar" role="progress-bar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="row skillsRow">
+                    <div class="col-sm-4">
+                    <!--skill one-->
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="assets/img/html.png" alt="HTML Picture" style="width: 18rem; height: 18rem;">
+                            <div class="card-body">
+                            <p class="card-text"> The first programming language I learned was HTML. I am pretty confident in my abilities and could deliver
+                                a design given to me. However, that is not am offer.
+                            </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <div class="each_skills">
-                    <span>CSS <img src=""> </span>
-                    <div class="progress">
-                        <div class="progress-bar" role="progress-bar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
-
-                <div class="each_skills">
-                    <span>Bootstrap <img src=""> </span>
-                    <div class="progress">
-                        <div class="progress-bar" role="progress-bar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
+                    <div class="col-sm-4">
+                        <!--skill two-->
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/img/css.png" alt="HTML Picture" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                <p class="card-text"> Along with HTML, I also learned CSS. I am also confident in my abilities. However, I do not have an eye for design,
+                                     so do not count on anything to be pretty unless you give me a detailed example!  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <!--skill three-->
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="assets/img/clock.jpg" alt="HTML Picture" style="width: 18rem; height: 18rem;">
+                                    <div class="card-body">
+                                    <p class="card-text"> I take pride in my time management skills. I like to get things done ahead of time and hate procrastinating. </p>
+                                    </div>
+                                </div>
+                            </div>
                 </div>
             </div>
         </div>
@@ -111,12 +123,12 @@
                 <div class="row">
                     <div class="col-sm-3">
                     <!--card one-->
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/img/pubg.jpg" alt="Pubg Mobile Picture" style="width: 18rem; height: 18rem;">
-                        <div class="card-body">
-                        <p class="card-text">One of my hobbies includes playing PUBG Mobile. I play almost every day and can get very competitive.</p>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="assets/img/pubg.jpg" alt="Pubg Mobile Picture" style="width: 18rem; height: 18rem;">
+                            <div class="card-body">
+                            <p class="card-text">One of my hobbies includes playing PUBG Mobile. I play almost every day and can get very competitive.</p>
+                            </div>
                         </div>
-                    </div>
                     </div>
                     <div class="col-sm-3">
                         <!--card two-->
@@ -133,7 +145,7 @@
                     <div class="col-sm-3">
                         <!--card three-->
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="assets/img/familyPic.jpg" alt="Family Picture" style="width: 18rem; height: 18rem;">
+                            <img class="card-img-top" src="assets/img/familyPic.JPG" alt="Family Picture" style="width: 18rem; height: 18rem;">
                             <div class="card-body">
                             <p class="card-text">I enjoy hanging out with my family. We get together every Sunday! Above is me, my brother, and my cousin.</p>
                             </div>
@@ -158,15 +170,18 @@
                 <div class="container">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Name</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Billy Joe">
+                        <input type="text" class="form-control" placeholder="Billy Joe">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput2">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <input type="email" class="form-control" placeholder="name@example.com">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="message"></textarea>
+                        <textarea class="form-control" rows="3" placeholder="message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="form-control">Submit</button>
                     </div>
                 </div>
               </form>

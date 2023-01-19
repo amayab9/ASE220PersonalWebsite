@@ -46,6 +46,13 @@ li a{
 .progress-bar {
     background-color: #C4A484 !important;
 }
+.skillPictures{
+    width: 40px;
+    height: 40px;
+}
+.skillsRow{
+    padding-top: 20px;
+}
 .hobbiesContainer{
     border: 3px solid #e5c2f5;
     padding: 10px;
@@ -55,7 +62,7 @@ h2{
     padding-left: 10px;
 }
 .form-control{
-    background-color: #C4A484 !important;
+    background-color: #f3e3fa !important;
 }
 .form-control::-webkit-input-placeholder {
     color: black !important;
