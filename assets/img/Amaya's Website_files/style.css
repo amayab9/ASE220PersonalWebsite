@@ -1,17 +1,25 @@
 *{
-    font-family: "Sofia", sans-serif;;
-    src: url(sansation_light.woff);  
+    margin: 0;
+    padding: 0;
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+    
 }
 p{
     padding: 5px;
 }
-
+.header{
+    height: 100vh;
+}
 .navbar-style{
     background-color: #FFFFFF;
     /* box-shadow: 0 5px 10px #eeeeee; */
     box-shadow: 0 5px 10px #b79cc4;
 }
-
+.logo{
+    height: 45px;
+    padding: 3px 10px;
+}
 .icon-bar{
     background: #800080;
 }
@@ -25,7 +33,7 @@ li a{
 }
 
 .background{
-    background-color: #f5edfa;
+    background-color: #e5c2f5;
     /*background: '../img/brown.jpg';*/
 }
 
@@ -39,9 +47,12 @@ li a{
 
 .hobbiesContainer{
     border: 3px solid #e5c2f5;
-
+    padding: 10px;
 }
 
+h2{
+    padding-left: 10px;
+}
 .form-control{
     background-color: #f3e3fa !important;
 }
@@ -53,31 +64,41 @@ li a{
 footer{
     background-color: #e5c2f5;
 }
-
+.socials{
+    padding: 10px;
+}
 
 @media screen and (max-width: 600px) {
     .background{
         background-color: lightblue;
     }
-    .cardPhoto{
-        transform: scale(0.95); 
-    }
     
+    .personalPicture{
+        width: 300px; 
+        height: 300px;
+    }
     /*background changes color when max width is 600px*/
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
     .bioSection{
-        background-color: #eba2c9 !important;
+        background-color: #eba2c9;
     }
-
+    
+    .personalPicture{
+        width: 300px; 
+        height: 300px;
+    }
     /* first section color changes color when min width is 900px*/
 }
 
 @media screen and (min-width: 900px) {
     footer{
-        background-color: #8d3bb3 !important;
+        background-color: #e5c2f5;
     }
-
+    .personalPicture{
+        width:470px; 
+        height: 470px;
+    }
     /* footer color changes color when min width is 900px*/
 }
